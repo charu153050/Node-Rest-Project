@@ -7998,5 +7998,13 @@
     "email": "gsheddrr@fastcompany.com",
     "gender": "Female",
     "job_tittle": "Database Administrator IV"
+  },
+  {
+    "first_name": "HarshDeep",
+    "last_name": "Singh",
+    "email": "harshdeep14@gmail.com",
+    "gender": "Male",
+    "job_tittle": "Senior Software Engineer",
+    "id": 1001
   }
 ]
