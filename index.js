@@ -23,10 +23,7 @@ app
     const user = users.find((user) => user.id === id);
     return res.json(user);
   })
-  .post((req, res) => {
-    //ToDo - Create new User
-    return res.json({ status: "pending" });
-  })
+
   .patch((req, res) => {
     //ToDo - Edit the user with id
     return res.json({ status: "pending" });
@@ -42,10 +39,10 @@ app
 //   return res.json(user);
 // });
 
-// app.post("/api/users", (req, res) => {
-//   //ToDo - Create new User
-//   return res.json({ status: "pending" });
-// });
+app.post("/api/users", (req, res) => {
+  //ToDo - Create new User
+  return res.json({ status: "pending" });
+});
 // app.patch("/api/users:id", (req, res) => {
 //   //ToDo - Edit the user with id
 //   return res.json({ status: "pending" });
